@@ -1,0 +1,16 @@
+IP,登录用户名,密码,操作系统类型,其他登录用户,当前登录用户,CPU个数,内存使用情况
+39.108.147.179,shawn,shawn123,"LSB Version:	core-9.20160110ubuntu0.2-amd64:core-9.20160110ubuntu0.2-noarch:security-9.20160110ubuntu0.2-amd64:security-9.20160110ubuntu0.2-noarch
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.2 LTS
+Release:	16.04
+Codename:	xenial",(117.175.187.133),shawn,1,"              total        used        free      shared  buff/cache   available
+Mem:           2.0G        512M         79M        3.9M        1.4G        1.3G
+Swap:            0B          0B          0B"
+328.1.0.1,zsy,1026
+192.168.134.131,wuyuhang,1209,"No LSB modules are available.
+Distributor ID:	Ubuntu
+Description:	Ubuntu 17.10
+Release:	17.10
+Codename:	artful",(192.168.134.1),wuyuhang wuyuhang,2,"              total        used        free      shared  buff/cache   available
+Mem:           1.9G        1.0G        468M         13M        438M        747M
+Swap:          1.9G          0B        1.9G"
