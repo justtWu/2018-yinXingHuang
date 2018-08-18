@@ -1,8 +1,12 @@
 #coding=utf-8
+import sys
+defaultencoding = 'utf-8'
+if sys.getdefaultencoding() != defaultencoding:
+    reload(sys)
+    sys.setdefaultencoding(defaultencoding)
 import paramiko
 from IO import reader,writer
 from logDeal import logger
-
 class baseConnecter(object):
     #连接基类，构造基本连接的配置信息
     def __init__(self,ip,userName,passWord):
@@ -16,7 +20,7 @@ class ssh_connecter(baseConnecter):
     建立连接，并完成一系列操作
     '''
     def __init__(self,ip,userName,passWord):
-        super().__init__(ip,userName,passWord)
+        super(ssh_connecter,self).__init__(ip,userName,passWord)
         self.sh=paramiko.SSHClient()
 
     #进行连接并处理异常
@@ -88,7 +92,7 @@ if __name__ == '__main__':
         sshCon=ssh_connecter(j['ip'],j['user'],j['password'])
         sshCon.get_connect(j['retry'])
         if sshCon.conStatus == True:
-            print(j['ip']+':')
+	    print j['ip']+':'
             tmp=sshCon.do(cmds)
             for info in tmp:
                 get.append(info)

@@ -58,13 +58,13 @@ class writer(object):
         if not filename[-4:] == '.csv':
             filename = filename + '.csv'
         head_infos = ["IP", "登录用户名","密码","操作系统类型","其他登录用户","CPU个数","内存使用情况"]
-        with open(filename, "w", newline='') as f:
+        with open(filename, "w") as f:
             writer = csv.writer(f)
             writer.writerow(head_infos)
 
 
     def csv_write_body(self,filename,result):
-        with open(filename, "a+", newline='') as f:
+        with open(filename, "a+") as f:
             writer = csv.writer(f)
             writer.writerow(result)
 

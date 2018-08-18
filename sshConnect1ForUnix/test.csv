@@ -1,4 +1,4 @@
-IP,µÇÂ¼ÓÃ»§Ãû,ÃÜÂë,²Ù×÷ÏµÍ³ÀàĞÍ,ÆäËûµÇÂ¼ÓÃ»§,CPU¸öÊı,ÄÚ´æÊ¹ÓÃÇé¿ö
+IP,ç™»å½•ç”¨æˆ·å,å¯†ç ,æ“ä½œç³»ç»Ÿç±»å‹,å…¶ä»–ç™»å½•ç”¨æˆ·,CPUä¸ªæ•°,å†…å­˜ä½¿ç”¨æƒ…å†µ
 39.108.147.179,shawn,shawn123,"LSB Version:	core-9.20160110ubuntu0.2-amd64:core-9.20160110ubuntu0.2-noarch:security-9.20160110ubuntu0.2-amd64:security-9.20160110ubuntu0.2-noarch
 Distributor ID:	Ubuntu
 Description:	Ubuntu 16.04.2 LTS
@@ -6,8 +6,8 @@ Release:	16.04
 Codename:	xenial
 ",,"1
 ","              total        used        free      shared  buff/cache   available
-Mem:           2.0G        257M        494M        3.0M        1.2G        1.5G
+Mem:           2.0G        258M        492M        3.0M        1.2G        1.5G
 Swap:            0B          0B          0B
-"
-328.1.0.1,zsy,1026,,,,
-192.168.134.131,wuyuhang,1209,,,,
+",
+328.1.0.1,zsy,1026
+192.168.134.131,wuyuhang,1209
