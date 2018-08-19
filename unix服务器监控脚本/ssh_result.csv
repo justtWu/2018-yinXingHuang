@@ -1,0 +1,21 @@
+IP,登录用户名,密码,操作系统类型,其他登录用户,CPU个数,内存使用情况
+39.108.147.179,shawn,shawn123,"LSB Version:	core-9.20160110ubuntu0.2-amd64:core-9.20160110ubuntu0.2-noarch:security-9.20160110ubuntu0.2-amd64:security-9.20160110ubuntu0.2-noarch
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.2 LTS
+Release:	16.04
+Codename:	xenial
+",,"1
+","              total        used        free      shared  buff/cache   available
+Mem:           2.0G        257M        360M        3.0M        1.3G        1.5G
+Swap:            0B          0B          0B
+"
+328.1.0.1,zsy,1026
+192.168.134.138,wuyuhang,1209,"Distributor ID:	Ubuntu
+Description:	Ubuntu 17.10
+Release:	17.10
+Codename:	artful
+",,"2
+","              total        used        free      shared  buff/cache   available
+Mem:           1.9G        1.1G        101M         16M        778M        700M
+Swap:          1.9G        577M        1.3G
+"
