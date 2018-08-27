@@ -1,0 +1,2 @@
+"IP",  "登录用户名","密码",    "操作系统类型",       "其他登录用户",                                     "CPU个数",                                         "内存使用情况","列出"
+                              'lsb_release -a',     'who | grep \'([1-9]\' | awk \'{print $NF}\'',     'cat /proc/cpuinfo | grep processor | wc -l',     'free -h','sudo ls -l'
